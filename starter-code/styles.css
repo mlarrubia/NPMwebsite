@@ -1,0 +1,87 @@
+<!-- Nav bar -->
+
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+
+
+}nav {
+     background-color: #C12127;
+     color: rgba(255,255,255,0.8);
+     padding-top: 15px;
+     height: 100px;
+ }
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+#infoNpm{
+    background-size: cover;
+}
+
+
+
+
+#create{
+    height: 600px;
+    width: 100%;
+}
+
+.tabs{
+    height: 300px;
+    width: 33%;
+    float: right;
+}
+
+header{
+    color: white;
+    background-color: rgb(32, 82, 111);
+
+}
+
+#headerTextContent{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#headerButton{
+    background-color: rgb(240, 146, 51);
+    border-radius: 25%;
+
+}
+
+#cityscpe{
+    display: inline-block;
+    float: right;
+
+}
+
+#imgnpm{
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 40spx;
+    width: 70px;
+}
+
+.header input[type=text]{
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
