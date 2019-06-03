@@ -1,16 +1,8 @@
-<!-- Nav bar -->
-
-
-nav a {
-    color: rgba(255,255,255,0.8);
-    text-decoration: none;
-
-
-}nav {
+nav {
      background-color: #C12127;
      color: rgba(255,255,255,0.8);
      padding-top: 15px;
-     height: 100px;
+     height: 20px;
  }
 
 .top-links {
@@ -23,6 +15,12 @@ nav a {
 .top-links li {
     display: inline-block;
     margin: 0 10px;
+    text-decoration: none;
+}
+.top-links li a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+
 }
 
 
@@ -45,14 +43,18 @@ nav a {
 }
 
 header{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/city-scape.svg);
     color: white;
     background-color: rgb(32, 82, 111);
-
+    display: flex;
 }
 
 #headerTextContent{
-    width: 400px;
-    margin: 0 auto;
+    position: relative;
+    top: 125px;
+
 }
 
 #headerButton{
@@ -84,4 +86,30 @@ header{
     border: none;
     font-size: 17px;
     background-color: transparent;
+}
+
+
+#create{
+
+}
+
+#infoNpm{
+    background-image: url(images/forklift.svg);
+    height: 300px;
+    color: rgba(255,255,255,0.8);
+}
+
+#info{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#infoNpm button {
+    background-color: rgb(49, 68, 88);
+    border-radius: 40%;
+}
+
+#orgs{
+    background-color: rgb(39, 53, 71);
 }
