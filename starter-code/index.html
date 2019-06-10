@@ -11,7 +11,7 @@
 
 <nav>
   <div class="top-left">
-    <a class = "heart" href="#">♥︎</a>
+    <a class = "heart" href="#">♥</a>
     <span class="acronym">Neophobe Plebeian Mumpsimus</span>
   </div>
   <ul class="top-links">
@@ -42,8 +42,10 @@
   </div>
 </header>
 
-<section id="orgs">
-  <img src="images/collaboration.svg" height="300px" width="300px">
+<section id="orgs" class="container">
+  <div id="orgimg">
+    <img src="images/collaboration.svg" height="300px" width="300px">
+  </div>
   <div id="infoOrgs">
     <h1>npm Orgs is powerful<br>collaboration -- for free</h1>
     <ul>
@@ -51,8 +53,10 @@
       <li>Publish and control access to your own namespace</li>
       <li>Mangage public and private code with the same workflow</li>
     </ul>
-    <button>Sign up for Orgs</button>
-    <p>or, <b></b><a href="#">Learn more about Orgs</a></p>
+    <div  id="button">
+      <a href="#">Sign up for Orgs</a>
+    </div>
+      <p>or, <b></b><a href="#">Learn more about Orgs</a></p>
   </div>
 
 
@@ -60,14 +64,14 @@
 
 
 <section id="infoNpm">
-  <div id="info">
+  <div class="container" id="info">
     <h1>What is npm?</h1>
     <p>
       Use npm to install, share and distribute code; <br>manage dependencies in your projects; and <br>share & receive feedback
       with others.
     </p>
 
-    <button>Install npm</button>
+    <a href="#">Install npm</a>
   </div>
 
 
@@ -75,20 +79,21 @@
 
 <section id="create">
 
-  <h1>What can you make with 475,000 building blocks?</h1>
-  <p>
-    The npm registry hosts almost half a million packages of free, reusable code -- the largest software registry in
-    the world.
-  </p>
+  <div class="section-text">
+    <h1>What can you make with 475,000 building blocks?</h1>
+    <p>
+      The npm registry hosts almost half a million packages of free, reusable code -- the largest software registry in
+      the world.
+    </p>
+  </div>
 
-
-
+<div class="container">
   <div class="tabs">
     <img src="images/binoculars.svg" alt="">
     <h3>Find</h3>
     <p>
-    Libraries like <a href="#">JQuery</a>, <a href="#">Bootstrap</a>, <a href="#">Recat</a>, and
-      components from frameworks such as <a href="#">Ember</a>.
+      Libraries like <span class="find-link"><a href="#">JQuery</a></span>, <span class="find-link"><a href="#">Bootstrap</a></span>, <span class="find-link"><a href="#">Recat</a></span>, and
+      components from frameworks such as <span class="find-link"><a href="#">Ember</a></span>.
     </p>
   </div>
   <div class="tabs">
@@ -103,6 +108,8 @@
     <h3>Build</h3>
     <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
   </div>
+
+</div>
 </section>
 
 

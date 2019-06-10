@@ -1,9 +1,25 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+}
+
 nav {
      background-color: #C12127;
      color: rgba(255,255,255,0.8);
-     padding-top: 15px;
+     padding: 15px;
      height: 20px;
+     font-size: .9em;
  }
+
+.heart{
+    padding: 15px;
+    font-size: 1.9em;
+}
+
+.top-left{
+    display: inline-block;
+}
 
 .top-links {
     display: inline-block;
@@ -37,9 +53,10 @@ nav {
 }
 
 .tabs{
+    text-align: center;
     height: 300px;
     width: 33%;
-    float: right;
+    float: left;
 }
 
 header{
@@ -74,7 +91,7 @@ header{
     margin-left: 15px;
     margin-top: 10px;
     margin-right: 20px;
-    height: 40spx;
+    height: 40px;
     width: 70px;
 }
 
@@ -90,19 +107,20 @@ header{
 
 
 #create{
-
+    background-color: white;
 }
 
 #infoNpm{
     background-image: url(images/forklift.svg);
-    height: 300px;
+
     color: rgba(255,255,255,0.8);
 }
 
 #info{
+    font-size: 1.3em;
     position: relative;
-    top: 100px;
-    left: 50px;
+    top: -50px;
+    left: 140px;
 }
 
 #infoNpm button {
@@ -110,6 +128,65 @@ header{
     border-radius: 40%;
 }
 
+#orgimg{
+    margin-left: 100px;
+    display: inline-block;
+    float: left;
+}
 #orgs{
     background-color: rgb(39, 53, 71);
+}
+
+#infoOrgs{
+    color: rgba(255, 255, 255,0.8);
+    text-align: center;
+    font-size: 1.3em;
+
+
+}
+
+#button a{
+    background-color: red;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 2rem;
+    padding: .2rem .85rem .25rem .85rem;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+a{
+
+    color: #fff;
+    text-decoration: none;
+}
+/*------------------------------------------------------ */
+
+#infoNpm a{
+    background-color: #333;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 2rem;
+    padding: .2rem .85rem .25rem .85rem;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.section-text{
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.find-link{
+    background-color: red;
+    color: red;
+    text-decoration: none;
 }
